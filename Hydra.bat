@@ -6,7 +6,7 @@ color 0a
 set /a count+=1
 call :hydrafunc
 set /p attack=How do you attack?:
-if "%attack%" neq "do nothing" (goto :loopstart) else (goto :eof)
+if "%attack%" neq "nothing" (goto :loopstart) else (goto :eof)
 
 :hydrafunc
 setlocal
